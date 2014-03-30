@@ -14,10 +14,17 @@ module.exports = function(grunt) {
 		      	}
 		    }
 		},
+		cssmin: {
+		  	combine: {
+		    	files: {
+		      		'tmp/globalmin.css': ['lib/vendor/lemonade.css', 'tmp/global.css']
+		    	}
+		  	}
+		},
 		autoprefixer: {
             dist: {
                 files: {
-                    'build/css/global.css':['tmp/global.css']
+                    'build/css/global.css':['tmp/globalmin.css']
                 }
             }
         },
@@ -53,7 +60,7 @@ module.exports = function(grunt) {
 	    watch: {
 	     	css: {
 	        	files: 'lib/*.scss',
-	        	tasks: ['sass','autoprefixer'],
+	        	tasks: ['sass','cssmin','autoprefixer'],
 	        	options: {
 	          		livereload: true,
 	        	},
@@ -73,9 +80,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify','sass','autoprefixer','coffee','watch','imagemin']);
+  grunt.registerTask('default', ['uglify','sass','autoprefixer','coffee','watch','imagemin','cssmin']);
 
 
 };

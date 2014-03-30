@@ -1,13 +1,14 @@
 (function() {
   $(function() {
     return $.ajax({
-      url: 'data/data.json',
+      url: 'http://api.bandsintown.com/artists/weezer/events.json?callback=?&app_id=joepurdy',
       type: 'GET',
-      dataType: 'json',
+      dataType: 'jsonp',
       success: function(results) {
-        $('<ul id="menu"></ul>').appendTo('div.section div');
-        return $.each(results.response.nav.links, function() {
-          return $('<li></li>').append('<a href="' + this.href + '">' + this.val + '</a>').appendTo('div.section div ul#menu');
+        return $.each(results, function() {
+          var date;
+          date = this.datetime.split("T");
+          return $('<ul></ul>').append('<li><p>' + date[0] + '</p><p>' + this.venue.city + ', ' + this.venue.region + '</p><p>' + this.venue.name + '</p><p class="ticket">Tickets <i class="fa fa-ticket"></i></li>').appendTo('.shows');
         });
       }
     });
