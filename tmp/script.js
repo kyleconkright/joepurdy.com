@@ -1,7 +1,7 @@
 (function() {
   $(function() {
     return $.ajax({
-      url: 'http://api.bandsintown.com/artists/erichutchinson/events.json?callback=?&app_id=joepurdy',
+      url: 'http://api.bandsintown.com/artists/joepurdy/events.json?callback=?&app_id=joepurdy',
       type: 'GET',
       dataType: 'jsonp',
       success: function(results) {
