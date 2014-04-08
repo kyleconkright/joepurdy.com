@@ -13,7 +13,7 @@ $spacefix: 20px;
 	font-size: 102%;
 	color: inherit;
 	font-weight: 300;
-	font-family: Lato;
+	font-family: inherit;
 	line-height: 1.35em;
 	padding: 0;
 	margin: 0;
@@ -25,14 +25,6 @@ $spacefix: 20px;
   box-sizing: border-box;
 }
 
-.bit-35 {
-	width: 35%;
-}
-
-.bit-65 {
-	width: 65%;
-}
-
 body, html {
 	height: 100%;
 }
@@ -41,9 +33,10 @@ body {
 	color: $dark;
 	background: $white url('../../assets/img/bg.jpg') no-repeat top;
 	background-size: cover;
+	font-family: lato;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	padding: 0 0 $spacefix/2;
 	font-family: Special Elite;
 }
@@ -87,6 +80,27 @@ h2 {
 			width:60%;
 			margin: 0 auto;
 			display: block;
+		}
+	}
+	.music {
+		div.releases {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+			div.release {
+				width: 30%;
+				margin: 0 0 $spacefix*2;
+				text-align: center;
+				font-family: special elite;
+				font-size: .8em;
+				img {
+					width: 100%;
+					margin: 0 0 $spacefix/2;
+				}
+				a {
+					border-bottom: 1px dotted;
+				}
+			}
 		}
 	}
 	.shows {
@@ -148,6 +162,13 @@ and (max-width : 980px) {
 		.shows {
 			border: none;
 			padding: 0;
+		}
+		.music {
+			div.releases {
+				div.release {
+					width: 45%;
+				}
+			}
 		}
 	}
 }

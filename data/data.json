@@ -1,17 +1,52 @@
-{
-	"response": {
-		"nav": {
-			"links":
-				[
-					{"title":"videos", "val":"videos","href":"#videos"},
-					{"title":"photos", "val":"photos","href":"#photos"},
-					{"title":"tour", "val":"tour","href":"#tour"},
-					{"title":"resume", "val":"resume","href":"#resume"},
-					{"title":"twitter", "val":"<i class=\"fa fa-twitter\">","href":"http://www.twitter.com/matthires"},
-					{"title":"facebook", "val":"<i class=\"fa fa-facebook\">","href":"http://www.facebook.com/matthires"},
-					{"title":"apple", "val":"<i class=\"fa fa-apple\">","href":"http://www.itunes.com/matthires"},
-					{"title":"instagram", "val":"<i class=\"fa fa-instagram\">","href":"http://www.instagram.com/matthires"}
-				]
+{		
+	"releases": [
+			{
+				"title":"This American",
+				"art":"http://a3.mzstatic.com/us/r30/Music/65/b6/67/mzi.zextobcq.400x400-75.jpg"
+			},
+			{
+				"title":"4th of July",
+				"art":"http://a3.mzstatic.com/us/r30/Features/26/fe/c1/dj.rsacdrsd.400x400-75.jpg"
+			},
+			{
+				"title":"Last Clock on the Wall",
+				"art":"http://a4.mzstatic.com/us/r30/Music/83/bd/5e/mzi.schegyey.400x400-75.jpg"
+			},
+			{
+				"title":"Take My Blanket and Go",
+				"art":"http://a5.mzstatic.com/us/r30/Music/36/68/5d/mzi.nybptths.400x400-75.jpg"
+			},
+			{
+				"title":"Canyon Joe",
+				"art":"http://a1.mzstatic.com/us/r30/Music/c5/62/41/mzi.xibpgybr.400x400-75.jpg"
+			},
+			{
+				"title":"Paris in the Morning",
+				"art":"http://a1.mzstatic.com/us/r30/Music/4f/a8/a8/mzi.qpovuihn.400x400-75.jpg"
+			},
+			{
+				"title":"You Can Tell Georgia",
+				"art":"http://a3.mzstatic.com/us/r30/Music/6e/27/79/mzi.hpqqvdua.400x400-75.jpg"
+			},
+			{
+				"title":"Only Four Seasons",
+				"art":"http://a4.mzstatic.com/us/r30/Music/0a/1e/20/mzi.wanhzqci.400x400-75.jpg"
+			},
+			{
+				"title":"Julie Blue",
+				"art":"http://a3.mzstatic.com/us/r30/Music/32/b2/2e/mzi.yyjemsqj.400x400-75.jpg"
+			},
+			{
+				"title":"StompinGrounds",
+				"art":"http://a1.mzstatic.com/us/r30/Features/ca/8a/af/dj.ajsyqjxs.400x400-75.jpg"
+			},
+			{
+				"title":"Sessions from Motor Ave.",
+				"art":"http://a1.mzstatic.com/us/r30/Music/ff/07/73/mzi.myoydbcu.400x400-75.jpg"
+			},
+			{
+				"title":"Joe Purdy",
+				"art":"http://a4.mzstatic.com/us/r30/Music/7e/18/b2/mzi.ygxzhcdp.400x400-75.jpg"
 		}
-	}
+	]
 }
