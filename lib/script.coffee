@@ -24,3 +24,16 @@ $ ->
 				.appendTo('.music .releases')
 
 
+	insta_url = 'https://api.instagram.com/v1/users/1252139247/media/recent/?client_id=385c22dd2b964f459cc82e13ff7ed8a0&count=3&callback=?'
+	
+	$.ajax
+		url: insta_url
+		type: 'GET'
+		dataType: 'jsonp'
+		success: (data) ->
+			$.each data.data, ->
+				console.log this.images.standard_resolution.url + ' ' + this.caption.text
+				$('<img src="' + this.images.standard_resolution.url + '"><p>' + this.caption.text + '</p>').appendTo('.news')
+			
+
+
