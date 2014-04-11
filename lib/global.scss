@@ -71,7 +71,10 @@ h2 {
 		text-align: center;
 		padding: $spacefix*2;
 		p {
-			margin: 0 0 $spacefix 0;
+			margin: 0 0 $spacefix*4 0;
+		}
+		img {
+			max-width: 100%;
 		}
 	}
 	.hero {
@@ -104,27 +107,14 @@ h2 {
 	}
 	.shows {
 		ul {
-			text-align: center;
-			li {
-				margin: 0 0 $spacefix*2;
-				p {
-					line-height: 1.5em;
+			li.frame {
+				margin: 0 0 $spacefix;
+				div.descrip {
+					font-size: .7em;
+					color: #888;
 				}
-				p.date {
-					font-size: 1.4em;
-				}
-				a.ticket {
-					border-bottom: 1px dotted;
-					font-size: .8em;
-					i {
-						font-size: inherit;
-						color: inherit;
-						margin: 0 0 0 3px;
-					}
-				}
-				span {
-					font-style: italic;
-					font-size: .8em;
+				div.ticket {
+					text-align: right;
 				}
 			}
 		}
@@ -148,6 +138,11 @@ and (max-width : 980px) {
 		padding: 0;
 	}
 	.content {
+		.hero {
+			img {
+				width: 100%;
+			}
+		}
 		.news {
 			padding: $spacefix*2 0;
 			p {
@@ -157,11 +152,26 @@ and (max-width : 980px) {
 		.shows {
 			border: none;
 			padding: 0;
+			ul {
+				li.frame {
+					margin: 0 0 $spacefix*2;
+					div.ticket {
+						text-align: left;
+						padding: 10px 0;
+					}
+				}
+			}
 		}
 		.music {
 			div.releases {
 				div.release {
 					width: 45%;
+					display: flex;
+					flex-direction: column;
+					align-self: flex-end;
+					h3 {
+						flex: 1;
+					}
 				}
 			}
 		}

@@ -2,7 +2,7 @@
 
 
     <div class="bit-1 hero">
-        <img src="assets/img/jp-header.jpg">
+        <img src="assets/img/jp-header2.jpg">
     </div>
 
     <div class="bit-1 news">

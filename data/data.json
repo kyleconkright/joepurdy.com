@@ -3,62 +3,86 @@
 			{
 				"title":"This American",
 				"art":"http://a3.mzstatic.com/us/r30/Music/65/b6/67/mzi.zextobcq.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/this-american/id407450672?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy12"
 			},
 			{
 				"title":"4th of July",
 				"art":"http://a3.mzstatic.com/us/r30/Features/26/fe/c1/dj.rsacdrsd.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/4th-of-july/id379380725?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy11"
 			},
 			{
 				"title":"Last Clock on the Wall",
 				"art":"http://a4.mzstatic.com/us/r30/Music/83/bd/5e/mzi.schegyey.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/last-clock-on-the-wall/id308816038?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy10"
 			},
 			{
 				"title":"Take My Blanket and Go",
 				"art":"http://a5.mzstatic.com/us/r30/Music/36/68/5d/mzi.nybptths.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/take-my-blanket-and-go/id297104514?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy9"
 			},
 			{
 				"title":"Canyon Joe",
 				"art":"http://a1.mzstatic.com/us/r30/Music/c5/62/41/mzi.xibpgybr.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/canyon-joe/id297106920?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy8"
 			},
 			{
 				"title":"Paris in the Morning",
 				"art":"http://a1.mzstatic.com/us/r30/Music/4f/a8/a8/mzi.qpovuihn.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/paris-in-the-morning/id297270265?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy7"
 			},
 			{
 				"title":"You Can Tell Georgia",
 				"art":"http://a3.mzstatic.com/us/r30/Music/6e/27/79/mzi.hpqqvdua.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/you-can-tell-georgia/id297286544?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy6"
 			},
 			{
 				"title":"Only Four Seasons",
 				"art":"http://a4.mzstatic.com/us/r30/Music/0a/1e/20/mzi.wanhzqci.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/only-four-seasons/id297315422?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy3"
 			},
 			{
 				"title":"Julie Blue",
 				"art":"http://a3.mzstatic.com/us/r30/Music/32/b2/2e/mzi.yyjemsqj.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/julie-blue/id297881853?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy2"
 			},
 			{
 				"title":"StompinGrounds",
 				"art":"http://a1.mzstatic.com/us/r30/Features/ca/8a/af/dj.ajsyqjxs.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/stompingrounds/id310965972?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy"
 			},
 			{
 				"title":"Sessions from Motor Ave.",
 				"art":"http://a1.mzstatic.com/us/r30/Music/ff/07/73/mzi.myoydbcu.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/sessions-from-motor-ave./id297894809?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy4"
 			},
 			{
 				"title":"Joe Purdy",
 				"art":"http://a4.mzstatic.com/us/r30/Music/7e/18/b2/mzi.ygxzhcdp.400x400-75.jpg",
-				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true"
+				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89073121&amp;auto_play=false&amp;hide_related=true&amp;visual=true",
+				"mp3":"https://itunes.apple.com/us/album/joe-purdy/id298009766?uo=4",
+				"cd":"http://www.cdbaby.com/cd/joepurdy5"
 		}
 	]
 }
