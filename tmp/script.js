@@ -10,7 +10,7 @@
           var date, show;
           date = this.datetime.split("T");
           show = date[0].split("-");
-          return $('<ul></ul>').append('<li class="frame"> <div class="bit-4 date">' + show[1] + '-' + show[2] + '-' + show[0] + '</div> <div class="bit-2 city">' + this.venue.city + ', ' + this.venue.region + ' at ' + this.venue.name + '</div> <div class="bit-4 ticket"><a href="' + this.ticket_url + '">Buy Tickets <i class="fa fa-ticket"></i></a></div> <div class="bit-1 descrip">' + this.description + '</div> </li>').appendTo('.shows');
+          return $('<ul></ul>').append('<li class="frame"> <div class="bit-4 date">' + show[1] + '-' + show[2] + '-' + show[0] + '</div> <div class="bit-2 city">' + this.venue.city + ', ' + this.venue.region + ' at ' + this.venue.name + '</div> <div class="bit-4 ticket"><a href="' + this.ticket_url + '">Buy Tickets <i class="fa fa-ticket"></i></a></div> <div class="bit-1 descrip">' + (this.description != null ? this.description : "" + '</div> </li>')).appendTo('.shows');
         });
       }
     });

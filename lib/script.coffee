@@ -13,7 +13,7 @@ $ ->
 					<div class="bit-4 date">' + show[1] + '-' + show[2] + '-' + show[0] + '</div>
 					<div class="bit-2 city">' + this.venue.city + ', ' + this.venue.region + ' at ' + this.venue.name + '</div>
 					<div class="bit-4 ticket"><a href="' + this.ticket_url + '">Buy Tickets <i class="fa fa-ticket"></i></a></div>	
-					<div class="bit-1 descrip">' + this.description + '</div>
+					<div class="bit-1 descrip">' + if this.description? then this.description else "" + '</div>
 					</li>')
 				.appendTo('.shows')
 
