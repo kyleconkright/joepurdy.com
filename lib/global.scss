@@ -63,63 +63,77 @@ h2 {
 	}
 	a {
 		margin: 0 $space/2 0;
+		img {
+			height: 16px;
+			position: relative;
+			top: 2px;
+		}
 	}
 }
 
-.content {
-	.news {
-		text-align: center;
-		padding: $spacefix*2;
-		p {
-			margin: 0 0 $spacefix*4 0;
-		}
-		img {
-			max-width: 100%;
-		}
+
+.news {
+	text-align: center;
+	padding: $spacefix*2;
+	a {
+		position: relative;
 	}
-	.hero {
-		img {
-			width:60%;
-			margin: 0 auto;
-			display: block;
-		}
+	p {
+		margin: 0 0 $spacefix*4 0;
 	}
-	.music {
-		div.releases {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-			div.release {
-				width: 22%;
-				margin: 0 0 $spacefix*2;
-				text-align: center;
-				font-family: special elite;
-				font-size: .8em;
-				img {
-					width: 100%;
-					margin: 0 0 $spacefix/2;
-				}
-				a {
-					border-bottom: 1px dotted;
-				}
+	img {
+		max-width: 100%;
+	}
+	.play {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: url('../../assets/img/play.gif');
+	}
+}
+.hero {
+	img {
+		width:60%;
+		margin: 0 auto;
+		display: block;
+	}
+}
+.music {
+	div.releases {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+		div.release {
+			width: 22%;
+			margin: 0 0 $spacefix*2;
+			text-align: center;
+			font-family: special elite;
+			font-size: .8em;
+			img {
+				width: 100%;
+				margin: 0 0 $spacefix/2;
 			}
-		}
-	}
-	.shows {
-		ul {
-			li.frame {
-				margin: 0 0 $spacefix;
-				div.descrip {
-					font-size: .7em;
-					color: #888;
-				}
-				div.ticket {
-					text-align: right;
-				}
+			a {
+				border-bottom: 1px dotted;
 			}
 		}
 	}
 }
+.shows {
+	ul {
+		li.frame {
+			margin: 0 0 $spacefix;
+			div.descrip {
+				font-size: .7em;
+				color: #888;
+			}
+			div.ticket {
+				text-align: right;
+			}
+		}
+	}
+}
+
 
 footer {
 	padding: $space *2 0;

@@ -29,7 +29,7 @@ $ ->
 				.appendTo('.music .releases')
 
 
-	insta_url = 'https://api.instagram.com/v1/users/1252139247/media/recent/?client_id=385c22dd2b964f459cc82e13ff7ed8a0&count=3&callback=?'
+	insta_url = 'https://api.instagram.com/v1/users/1252139247/media/recent/?client_id=385c22dd2b964f459cc82e13ff7ed8a0&callback=?'
 	
 	$.ajax
 		url: insta_url
@@ -38,9 +38,7 @@ $ ->
 		success: (data) ->
 			$.each data.data, ->
 				if this.videos
-					media = this.videos.standard_resolution.url
+					media = '<a href="' + this.url + '" target="_blank"><img src="' + this.images.standard_resolution.url + '"></a>'
 				else
-					media = this.link
-				$('<a href="' + media + '" target="_blank">
-					<img src="' + this.images.standard_resolution.url + '"></a>
-					<p>' + this.caption.text + '</p>').appendTo('.news')
+					media = '<a href="' + this.url + '" target="_blank"><img src="' + this.images.standard_resolution.url + '"></a>'
+				$(media + '<p>' + this.caption.text + '</p>').appendTo('.news')

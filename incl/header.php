@@ -1,5 +1,5 @@
 
-<?php $FULLURL = 'http://localhost:8888/joepurdy.com/'; ?>
+<?php $FULLURL = 'http://www.kyleconkright.com/jp/'; ?>
 
 <!DOCTYPE HTML>
 <html>
@@ -18,6 +18,8 @@
                 <a href="http://www.facebook.com/joepurdy"><i class="fa fa-facebook"></i></a>
                 <a href="http://www.instagram.com/joepurdyofficial"><i class="fa fa-instagram"></i></a>
                 <a href="http://www.itunes.com/joepurdy"><i class="fa fa-apple"></i></a>
+                <a href="http://www.itunes.com/joepurdy"><img src="assets/img/beats.svg"></a>
+                <a href="http://www.itunes.com/joepurdy"><img src="assets/img/spotify.svg"></a>
                 <a href="<?php echo $FULLURL ?>music">music</a>
                 <a href="<?php echo $FULLURL ?>shows">shows</a>
             </div><!--HEADER-->
