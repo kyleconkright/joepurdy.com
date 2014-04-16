@@ -84,11 +84,21 @@ h2 {
 	img {
 		max-width: 100%;
 	}
-	.play {
-		position: absolute;
+	div {
+		max-width: 640px;
+		height: 640px;
 		width: 100%;
-		height: 100%;
-		background: url('../../assets/img/play.gif');
+		margin: 0 auto;
+		position: relative;
+		a.play {
+			width: 640px;
+			height: 640px;
+			background: url('../../assets/img/play.gif') center no-repeat;
+			background-size: 15%;
+			opacity: .75;
+			position: absolute;
+			left: 0;
+		}
 	}
 }
 .hero {
@@ -151,41 +161,40 @@ and (max-width : 980px) {
 		width: 100%;
 		padding: 0;
 	}
-	.content {
-		.hero {
-			img {
-				width: 100%;
-			}
+
+	.hero {
+		img {
+			width: 100%;
 		}
-		.news {
-			padding: $spacefix*2 0;
-			p {
+	}
+	.news {
+		padding: $spacefix*2 0;
+		p {
+			margin: 0 0 $spacefix*2;
+		}
+	}
+	.shows {
+		border: none;
+		padding: 0;
+		ul {
+			li.frame {
 				margin: 0 0 $spacefix*2;
-			}
-		}
-		.shows {
-			border: none;
-			padding: 0;
-			ul {
-				li.frame {
-					margin: 0 0 $spacefix*2;
-					div.ticket {
-						text-align: left;
-						padding: 10px 0;
-					}
+				div.ticket {
+					text-align: left;
+					padding: 10px 0;
 				}
 			}
 		}
-		.music {
-			div.releases {
-				div.release {
-					width: 45%;
-					display: flex;
-					flex-direction: column;
-					align-self: flex-end;
-					h3 {
-						flex: 1;
-					}
+	}
+	.music {
+		div.releases {
+			div.release {
+				width: 45%;
+				display: flex;
+				flex-direction: column;
+				align-self: flex-end;
+				h3 {
+					flex: 1;
 				}
 			}
 		}

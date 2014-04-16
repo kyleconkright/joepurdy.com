@@ -34,9 +34,9 @@
         return $.each(data.data, function() {
           var media;
           if (this.videos) {
-            media = '<a href="' + this.url + '" target="_blank"><img src="' + this.images.standard_resolution.url + '"></a>';
+            media = '<div style="background-image: url(' + this.images.standard_resolution.url + ');"><a class="play" href="' + this.link;
           } else {
-            media = '<a href="' + this.url + '" target="_blank"><img src="' + this.images.standard_resolution.url + '"></a>';
+            media = '<a href="' + this.link;
           }
           return $(media + '<p>' + this.caption.text + '</p>').appendTo('.news');
         });

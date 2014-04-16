@@ -14,12 +14,12 @@
         <div class="frame">
             <div id="header" class="bit-1">
                 <h1><a href="<?php echo $FULLURL ?>">joe purdy</h1>
-                <a href="http://www.twitter.com/joepurdy"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.facebook.com/joepurdy"><i class="fa fa-facebook"></i></a>
-                <a href="http://www.instagram.com/joepurdyofficial"><i class="fa fa-instagram"></i></a>
-                <a href="http://www.itunes.com/joepurdy"><i class="fa fa-apple"></i></a>
-                <a href="http://www.itunes.com/joepurdy"><img src="assets/img/beats.svg"></a>
-                <a href="http://www.itunes.com/joepurdy"><img src="assets/img/spotify.svg"></a>
+                <a href="http://www.twitter.com/joepurdy" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.facebook.com/joepurdy" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.instagram.com/joepurdyofficial" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://itunes.apple.com/us/artist/joe-purdy/id57653144" target="_blank"><i class="fa fa-apple"></i></a>
+                <a href="https://listen.beatsmusic.com/artists/ar198373" target="_blank"><img src="<?php echo $FULLURL ?>assets/img/beats.svg"></a>
+                <a href="http://www.itunes.com/joepurdy" target="_blank"><img src="<?php echo $FULLURL ?>assets/img/spotify.svg"></a>
                 <a href="<?php echo $FULLURL ?>music">music</a>
                 <a href="<?php echo $FULLURL ?>shows">shows</a>
             </div><!--HEADER-->
