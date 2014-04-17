@@ -6,7 +6,7 @@
     </div>
 
     <div class="bit-1 news">
-        <p>New June 2014 tour dates announced with special guest Brian Wright!</p>
+        <p>New June 2014 <a href="shows">tour dates</a> announced with special guest <a href="http://brianwrightmusic.com/" target="_blank">Brian Wright</a>!</p>
     </div>
 
 

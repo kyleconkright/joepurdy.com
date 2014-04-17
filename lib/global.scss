@@ -80,6 +80,9 @@ h2 {
 	}
 	p {
 		margin: 0 0 $spacefix*4 0;
+		a {
+			border-bottom: 1px dotted;
+		}
 	}
 	img {
 		max-width: 100%;
@@ -88,16 +91,17 @@ h2 {
 		max-width: 640px;
 		height: 640px;
 		width: 100%;
-		margin: 0 auto;
+		margin: 0 auto 5px;
 		position: relative;
 		a.play {
 			width: 640px;
 			height: 640px;
-			background: url('../../assets/img/play.gif') center no-repeat;
-			background-size: 15%;
-			opacity: .75;
+			background: url('../../assets/img/play.png');
 			position: absolute;
 			left: 0;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 15%;
 		}
 	}
 }
@@ -160,6 +164,15 @@ and (max-width : 980px) {
 	[class*='bit-'] {
 		width: 100%;
 		padding: 0;
+	}
+
+	#header {
+		a {
+			img {
+				height: 19px;
+
+			}
+		}
 	}
 
 	.hero {
