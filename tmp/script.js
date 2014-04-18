@@ -32,13 +32,7 @@
       dataType: 'jsonp',
       success: function(data) {
         return $.each(data.data, function() {
-          var media;
-          if (this.videos) {
-            media = '<div style="background-image: url(' + this.images.standard_resolution.url + ');"><a class="play" href="' + this.link;
-          } else {
-            media = '<a href="' + this.link;
-          }
-          return $(media + '<p>' + this.caption.text + '</p>').appendTo('.news');
+          return $('<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url + '"></a><p>' + this.caption.text + '</p>').appendTo('.news');
         });
       }
     });

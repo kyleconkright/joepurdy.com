@@ -182,6 +182,15 @@ and (max-width : 980px) {
 	}
 	.news {
 		padding: $spacefix*2 0;
+		div {
+			width: 310px;
+			height: 310px;
+			background-size: cover;
+			a.play {
+				width: 100%;
+				height: 100%;
+			}
+		}
 		p {
 			margin: 0 0 $spacefix*2;
 		}

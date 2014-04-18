@@ -1,5 +1,5 @@
 
-<?php $FULLURL = 'http://www.kyleconkright.com/jp/'; ?>
+<?php $FULLURL = 'http://www.joepurdy.com/'; ?>
 
 <!DOCTYPE HTML>
 <html>

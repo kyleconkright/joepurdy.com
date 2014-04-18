@@ -37,8 +37,8 @@ $ ->
 		dataType: 'jsonp'
 		success: (data) ->
 			$.each data.data, ->
-				if this.videos
-					media = '<div style="background-image: url(' + this.images.standard_resolution.url + ');"><a class="play" href="' + this.link
-				else
-					media = '<a href="' + this.link
-				$(media + '<p>' + this.caption.text + '</p>').appendTo('.news')
+				# if this.videos
+				# 	media = '<div style="background-image: url(' + this.images.standard_resolution.url + ');"><a class="play" href="' + this.link + '></div>'
+				# else
+				# 	media = '<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url +'"></a>'
+				$('<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url + '"></a><p>' + this.caption.text + '</p>').appendTo('.news')
