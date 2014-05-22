@@ -306,6 +306,13 @@ and (max-width : 980px) {
 		img {
 			width: 100%;
 		}
+		#player {
+			width: 300px;
+			margin: 0 auto;
+		}
+		.listen {
+			display: none;
+		}
 	}
 	.news {
 		padding: $spacefix*2 0;

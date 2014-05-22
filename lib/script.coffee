@@ -1,8 +1,5 @@
 $ ->
 
-	$('.close, .enter').on 'click', ->
-		$('#erf').fadeOut()
-
 	$.ajax
 		url: 'http://api.bandsintown.com/artists/Joe%20Purdy/events.json?artist_id=fbid_20396365540&api_version=2.0&app_id=jp'
 		type: 'GET'
@@ -44,7 +41,8 @@ $ ->
 				# 	media = '<div style="background-image: url(' + this.images.standard_resolution.url + ');"><a class="play" href="' + this.link + '></div>'
 				# else
 				# 	media = '<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url +'"></a>'
-				$('<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url + '"></a><p>' + this.caption.text + '</p>').appendTo('.news')
+				if this.id isnt '726060075961180685_1252139247'
+					$('<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url + '"></a><p>' + this.caption.text + '</p>').appendTo('.news')
 
 	$("#signup").on "submit", (e) ->
 

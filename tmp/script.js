@@ -1,9 +1,6 @@
 (function() {
   $(function() {
     var insta_url;
-    $('.close, .enter').on('click', function() {
-      return $('#erf').fadeOut();
-    });
     $.ajax({
       url: 'http://api.bandsintown.com/artists/Joe%20Purdy/events.json?artist_id=fbid_20396365540&api_version=2.0&app_id=jp',
       type: 'GET',
@@ -35,7 +32,9 @@
       dataType: 'jsonp',
       success: function(data) {
         return $.each(data.data, function() {
-          return $('<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url + '"></a><p>' + this.caption.text + '</p>').appendTo('.news');
+          if (this.id !== '726060075961180685_1252139247') {
+            return $('<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url + '"></a><p>' + this.caption.text + '</p>').appendTo('.news');
+          }
         });
       }
     });
