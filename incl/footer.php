@@ -17,5 +17,15 @@
     var top = (screen.height/2)-(h/2);
     var targetWin = window.open (theURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, location=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
     }</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-2614151-1', 'joepurdy.com');
+      ga('send', 'pageview');
+
+    </script>
     </body>
 </html>

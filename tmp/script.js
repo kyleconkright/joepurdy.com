@@ -29,7 +29,7 @@
       }
     });
     insta_url = 'https://api.instagram.com/v1/users/1252139247/media/recent/?client_id=385c22dd2b964f459cc82e13ff7ed8a0&callback=?';
-    return $.ajax({
+    $.ajax({
       url: insta_url,
       type: 'GET',
       dataType: 'jsonp',
@@ -38,6 +38,33 @@
           return $('<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url + '"></a><p>' + this.caption.text + '</p>').appendTo('.news');
         });
       }
+    });
+    return $("#signup").on("submit", function(e) {
+      var email, id, ref, source;
+      email = $("#email").val();
+      source = $("#source_campaign").val();
+      ref = $("#referring_url").val();
+      id = $("#artist_id").val();
+      e.preventDefault();
+      $("#signup").addClass("loading");
+      return $.ajax({
+        url: "http://app.topspin.net/api/v1/fan/create_fan",
+        type: "POST",
+        dataType: "jsonp",
+        data: {
+          fan: {
+            email: email,
+            source_campaign: source,
+            referring_url: ref,
+            artist_id: id
+          }
+        },
+        success: function(resp) {
+          $("#signup").removeClass("loading");
+          $("#email").val("Check Your Inbox!");
+          return $("#email, #submit").prop("disabled", true);
+        }
+      });
     });
   });
 

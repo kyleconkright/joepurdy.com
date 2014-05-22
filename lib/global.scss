@@ -72,21 +72,37 @@ h2 {
 }
 
 #erf {
+	color: #E4DDD4;
+	font-family: 'Francois One', sans-serif;
+	text-transform: uppercase;
+	background: $white;
 	position: fixed;
 	z-index: 1;
 	background: white;
 	width: 100%;
 	height: 100%;
 	left: 0;
+	top: 0;
 	text-align: center;
-	padding: 2.5%;
+	padding: 3.5%;
 	font-size: 1.5em;
-	p {
+	div#widget {
+		background: $white url('../../assets/img/bg2.jpg') no-repeat top;
+		background-size: cover;
 		width: 50%;
+		margin: 0 auto;
+		padding: 50px;
+		box-shadow: 0 0 25px #aaa;
+	}
+	p {
+		width: 90%;
 		margin: 0 auto 2.5%;
 		.erf {
-			font-family: 'Francois One', sans-serif;
-			text-transform: uppercase;
+			color: #32312F;
+		}
+		.before {
+			font-size: .8em;
+			letter-spacing: .025em;
 		}
 	}
 	div {
@@ -233,6 +249,13 @@ and (max-width : 980px) {
 				height: 19px;
 
 			}
+		}
+	}
+
+	#erf {
+		p {
+			width: 85%;
+			font-size: .7em;
 		}
 	}
 

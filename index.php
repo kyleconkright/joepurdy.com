@@ -10,12 +10,14 @@
     </div>
 
     <div id="erf">
-    	<p>Download <span class="erf">Eagle Rock Fire</span> for FREE today before the official worldwide release.</p>
-    	<div>
-    		<iframe src="//www.noisetrade.com/service/widgetv2/bded679a-1421-41ff-bc37-04b2ce254e10" width="300" height="375" scrolling="no" frameBorder="0"></iframe>
-    	</div>
-    	<p class="enter">Enter Site</p>
-    	<span class="close"><i class="fa fa-times"></i></span>
+    	<div id="widget">
+	    	<p><span class="erf">Download 'Eagle Rock Fire' for</span> FREE<br><span class="before">before the official worldwide release.</span></p>
+	    	<div>
+	    		<iframe src="//www.noisetrade.com/service/widgetv2/bded679a-1421-41ff-bc37-04b2ce254e10" width="300" height="375" scrolling="no" frameBorder="0"></iframe>
+	    	</div>
+	    	<p class="enter">Enter Site</p>
+	    	<span class="close"><i class="fa fa-times"></i></span>
+	    <div><!--widget-->
     </div>
 
 <?php include(__DIR__.'/incl/footer.php'); ?>
