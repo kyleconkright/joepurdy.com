@@ -155,6 +155,12 @@ h2 {
 	a {
 		position: relative;
 	}
+	a.erf {
+		color: #9C6C4A;
+		font-family: francois one;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
 	p {
 		margin: 0 0 $spacefix*4 0;
 		a {
@@ -182,11 +188,48 @@ h2 {
 		}
 	}
 }
-.hero {
+
+.banner {
+	margin: 0 0 20px;
 	img {
-		width:60%;
+		width: 60%;
 		margin: 0 auto;
 		display: block;
+	}
+}
+
+.hero {
+
+	#player {
+		float: right;
+		padding: 0 10px 0 0;
+	}
+	div.holder {
+		width: 90%;
+		margin: 0 auto;
+		// background: url('../../assets/img/bg2.jpg');
+		background-size: cover;
+		padding: 2.5%;
+
+	}
+	p.copy {
+		margin: 0;
+		// color: $white;
+		// font-family: francois one;
+		font-size: 1.85em;
+		text-align: left;
+		// text-transform: uppercase;
+		.erf {
+			font-size: 1.25em;
+			font-family: Francois One;
+			text-transform: uppercase;
+			line-height: .8em;
+			color: #9C6C4A;
+		}
+	}
+	.listen {
+		font-size: .8em;
+		margin: 20px 0 0;
 	}
 }
 .music {

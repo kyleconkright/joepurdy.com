@@ -1,24 +1,20 @@
 <?php include(__DIR__.'/incl/header.php'); ?>
 
+	<div class="bit-1 banner">
+		<img src="assets/img/jp-header5.jpg">
+	</div>
 
-    <div class="bit-1 hero">
-        <img src="assets/img/jp-header5.jpg">
+    <div class="bit-1 hero frame">
+    	<div class="holder">
+        <div class="bit-2"><div id="player"><iframe src="//www.noisetrade.com/service/widgetv2/bded679a-1421-41ff-bc37-04b2ce254e10" width="300" height="374" scrolling="no" frameBorder="0"></iframe></div></div>
+    	<div class="bit-2"><p class="copy">Download <br><span class="erf">Eagle Rock Fire</span><br> for FREE before the official worldwide release.</p><p class="listen"><i class="fa fa-arrow-left"></i> Click that play button over there to listen.</p></div>
+    	</div>
     </div>
 
     <div class="bit-1 news">
-        <p>New June 2014 <a href="shows">tour dates</a> announced with special guest <a href="http://brianwrightmusic.com/" target="_blank">Brian Wright</a>!</p>
+    	<p>Make sure to catch Joe and the boys on the road in June for the <a href="shows" class="erf">Eagle Rock Fire Tour</a><br>with special guest <a href="http://brianwrightmusic.com/" target="_blank">Brian Wright</a>.</p>
     </div>
 
-    <div id="erf">
-    	<div id="widget">
-	    	<p><span class="erf">Download 'Eagle Rock Fire' for</span> FREE<br><span class="before">before the official worldwide release.</span></p>
-	    	<div>
-	    		<iframe src="//www.noisetrade.com/service/widgetv2/bded679a-1421-41ff-bc37-04b2ce254e10" width="300" height="375" scrolling="no" frameBorder="0"></iframe>
-	    	</div>
-	    	<p class="enter">Enter Site</p>
-	    	<span class="close"><i class="fa fa-times"></i></span>
-	    <div><!--widget-->
-    </div>
 
 <?php include(__DIR__.'/incl/footer.php'); ?>
         
