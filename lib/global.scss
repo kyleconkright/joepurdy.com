@@ -71,6 +71,32 @@ h2 {
 	}
 }
 
+#signup {
+	text-align: right;
+	padding: 1%;
+	font-size: .8em;
+	label {
+		display: inline-block;
+		font-size: .9em;
+		margin: $spacefix/2;
+	}
+	input {
+		border: none;
+		background: none;
+		padding: $space/4 $space/2;
+	}
+	input[type=email] {
+		text-align: center;
+		border: dashed #ddd;
+		border-width: 1px 0;
+	}
+	input[type=submit] {
+		color: $white;
+		background: $dark;
+		cursor: pointer;
+	}
+}
+
 
 .news {
 	text-align: center;
@@ -164,6 +190,16 @@ and (max-width : 980px) {
 	[class*='bit-'] {
 		width: 100%;
 		padding: 0;
+	}
+
+	#signup {
+		text-align: center;
+		label {
+			display: block;
+		}
+		input {
+			padding: 2%;
+		}
 	}
 
 	#header {

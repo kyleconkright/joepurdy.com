@@ -1,5 +1,5 @@
 
-<?php $FULLURL = 'http://www.joepurdy.com/'; ?>
+<?php $FULLURL = 'http://localhost:8888/joepurdy.com/'; ?>
 
 <!DOCTYPE HTML>
 <html>
@@ -9,6 +9,16 @@
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
     </head>
     <body>
+
+    <form id="signup" action="" method="" >
+        <label for="email">Signup for the Newsletter</label>
+        <input id="email"  name="fan[email]" type="email" placeholder="your email" class="erase email" />  
+        <input name="artist_id" value="239" id="artist_id" type="hidden">
+        <input name="fan[source_campaign]" value="http://app.topspin.net/api/v1/artist/239/campaign/10003651" id="source_campaign" type="hidden">
+        <input name="fan[referring_url]" value="http://www.joepurdy.com" id="referring_url" type="hidden">
+        <!-- <input name="fan[confirmation_target]" value="http://labs.topspin.net/downloadanywhere/confirm.php?sessionid=188a0d0a116380c2180c37a7dcb33e1e" id="confirmation_target" type="hidden">           -->
+        <input id="submit" name="submit" type="submit" value="submit" />
+    </form>
 
     <div id="container">
         <div class="frame">
@@ -22,4 +32,8 @@
                 <a href="http://open.spotify.com/artist/3MCxkaTJmYKH0FZbe3rYxa" target="_blank"><img src="<?php echo $FULLURL ?>assets/img/spotify.svg"></a>
                 <a href="<?php echo $FULLURL ?>music">music</a>
                 <a href="<?php echo $FULLURL ?>shows">shows</a>
+                <script type="text/javascript" src="//cf.topspin.net/javascripts/topspin_core.js?aId=239&gat=UA-2614151-1&timestamp=1398787233"></script>
+                <a href="https://www.spinshop.com/store/joepurdy/239?aId=239&cId=10123504&highlightColor=%23c9c9c9&offer_name=officialpurdyteeshirt&theme=black&wId=72936">tee shirt</a>
             </div><!--HEADER-->
+
+            
