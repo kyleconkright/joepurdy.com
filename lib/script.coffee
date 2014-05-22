@@ -1,5 +1,8 @@
 $ ->
 
+	$('.close, .enter').on 'click', ->
+		$('#erf').fadeOut()
+
 	$.ajax
 		url: 'http://api.bandsintown.com/artists/Joe%20Purdy/events.json?artist_id=fbid_20396365540&api_version=2.0&app_id=jp'
 		type: 'GET'

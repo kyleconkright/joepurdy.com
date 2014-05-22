@@ -1,5 +1,5 @@
 
-<?php $FULLURL = 'http://www.joepurdy.com/'; ?>
+<?php $FULLURL = 'http://localhost:8888/joepurdy.com/'; ?>
 
 <!DOCTYPE HTML>
 <html>
@@ -9,6 +9,16 @@
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
     </head>
     <body>
+
+    <form id="signup" action="" method="">
+        <label for="email">Signup for the Newsletter</label>
+        <input id="email" name="fan[email]" type="email" placeholder="your email" class="erase email">  
+        <input name="artist_id" value="239" id="artist_id" type="hidden">
+        <input name="fan[source_campaign]" value="http://app.topspin.net/api/v1/artist/239/campaign/10003651" id="source_campaign" type="hidden">
+        <input name="fan[referring_url]" value="http://www.joepurdy.com" id="referring_url" type="hidden">
+        <!-- <input name="fan[confirmation_target]" value="http://labs.topspin.net/downloadanywhere/confirm.php?sessionid=188a0d0a116380c2180c37a7dcb33e1e" id="confirmation_target" type="hidden">           -->
+        <input id="submit" name="submit" type="submit" value="submit">
+    </form>
 
     <div id="container">
         <div class="frame">

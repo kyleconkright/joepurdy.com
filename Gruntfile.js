@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 		cssmin: {
 		  	combine: {
 		    	files: {
-		      		'tmp/globalmin.css': ['lib/vendor/lemonade.css', 'tmp/global.css']
+		      		'tmp/globalmin.css': ['lib/vendor/lemonade.css','tmp/global.css']
 		    	}
 		  	}
 		},
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
       	uglify: {
       		my_target: {
       		    files: {
-      		    	'build/js/vendor.min.js': ['lib/vendor/jquery.js','lib/vendor/lightbox.js','lib/vendor/slides.js'],
+      		    	'build/js/vendor.min.js': ['lib/vendor/jquery.js','lib/vendor/slides.js'],
       		    	'build/js/script.min.js': 'tmp/script.js'
       		    }
       		}

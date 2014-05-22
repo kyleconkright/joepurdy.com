@@ -10,7 +10,7 @@
     <script src="<?php echo $FULLURL ?>build/js/vendor.min.js"></script>
     <script src="<?php echo $FULLURL ?>build/js/script.min.js"></script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite|Francois+One' rel='stylesheet' type='text/css'>
     <script type="text/javascript">
     function openWindow(theURL,title,w,h)  {
     var left = (screen.width/2)-(w/2);
