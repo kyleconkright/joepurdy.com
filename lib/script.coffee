@@ -1,7 +1,5 @@
 $ ->
 
-	console.log('hi')
-
 	$.ajax
 		url: 'http://api.bandsintown.com/artists/Joe%20Purdy/events.json?artist_id=fbid_20396365540&api_version=2.0&app_id=jp'
 		type: 'GET'
@@ -44,35 +42,3 @@ $ ->
 				# else
 				# 	media = '<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url +'"></a>'
 				$('<a href="' + this.link + '"><img src="' + this.images.standard_resolution.url + '"></a><p>' + this.caption.text + '</p>').appendTo('.news')
-
-	$("#signup").on "submit", (e) ->
-
-        email = $("#email").val()
-        source = $("#source_campaign").val()
-        ref = $("#referring_url").val()
-        id = $("#artist_id").val()
-
-        e.preventDefault()
-        $("#signup").addClass "loading"
-
-        $.ajax
-            url: "http://app.topspin.net/api/v1/fan/create_fan"
-            type: "POST"
-            dataType: "jsonp"
-            data: (
-                fan:
-                    email: email
-                    source_campaign: source
-                    referring_url: ref
-                    artist_id: id
-            )
-            success: (resp) ->
-                $("#signup").removeClass "loading"
-                $("#email").val "Check Your Inbox!"
-                $("#email, #submit").prop "disabled", true
-            
-
-
-
-
-		
