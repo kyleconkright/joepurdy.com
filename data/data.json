@@ -1,6 +1,11 @@
 {		
 	"releases": [
 			{
+				"title":"Eagle Rock Fire",
+				"art":"http://a4.mzstatic.com/us/r30/Music/v4/4f/45/45/4f4545d1-486d-3c11-b980-589120d71090/joepurdy13.400x400-75.jpg",
+				"mp3":"https://itunes.apple.com/us/album/eagle-rock-fire/id883291728"
+			},
+			{
 				"title":"This American",
 				"art":"http://a3.mzstatic.com/us/r30/Music/65/b6/67/mzi.zextobcq.400x400-75.jpg",
 				"player":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/30579198&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true",

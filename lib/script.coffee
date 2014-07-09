@@ -23,9 +23,21 @@ $ ->
 		dataType: 'json'
 		success: (results) ->
 			$('<div class="releases"></div>').appendTo('.music')
-			$.each results.releases, ->	
+			$.each results.releases, ->
+				title = this.title
+				if not this.cd?
+					cd = ''
+				else	
+					cd = ' / <a href="' + this.cd + '" target="_blank">CD</a>'
+
+				if not this.player?
+					player = ''
+				else	
+					player = '<a href="javascript:void(0);"  onclick="openWindow(\''+this.player+'\', \'follow\',530,395);">Listen</a>'
+				
+					
 				$('<div class="release"></div>')
-				.append('<h3>' + this.title + '</h3><img src="' + this.art + '"><p><a href="javascript:void(0);"  onclick="openWindow(\''+this.player+'\', \'follow\',530,395);">Listen</a></p><p>Buy: <a href="' + this.mp3 + '" target="_blank">MP3</a> / <a href="' + this.cd + '" target="_blank">CD</a></p>')	
+				.append('<h3>' + title + '</h3><img src="' + this.art + '"><p>' + player + '</p><p>Buy: <a href="' + this.mp3 + '" target="_blank">MP3</a>' + cd + '</p>')	
 				.appendTo('.music .releases')
 
 

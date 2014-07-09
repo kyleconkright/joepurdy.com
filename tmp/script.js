@@ -21,7 +21,19 @@
       success: function(results) {
         $('<div class="releases"></div>').appendTo('.music');
         return $.each(results.releases, function() {
-          return $('<div class="release"></div>').append('<h3>' + this.title + '</h3><img src="' + this.art + '"><p><a href="javascript:void(0);"  onclick="openWindow(\'' + this.player + '\', \'follow\',530,395);">Listen</a></p><p>Buy: <a href="' + this.mp3 + '" target="_blank">MP3</a> / <a href="' + this.cd + '" target="_blank">CD</a></p>').appendTo('.music .releases');
+          var cd, player, title;
+          title = this.title;
+          if (this.cd == null) {
+            cd = '';
+          } else {
+            cd = ' / <a href="' + this.cd + '" target="_blank">CD</a>';
+          }
+          if (this.player == null) {
+            player = '';
+          } else {
+            player = '<a href="javascript:void(0);"  onclick="openWindow(\'' + this.player + '\', \'follow\',530,395);">Listen</a>';
+          }
+          return $('<div class="release"></div>').append('<h3>' + title + '</h3><img src="' + this.art + '"><p>' + player + '</p><p>Buy: <a href="' + this.mp3 + '" target="_blank">MP3</a>' + cd + '</p>').appendTo('.music .releases');
         });
       }
     });

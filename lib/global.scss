@@ -155,12 +155,6 @@ h2 {
 	a {
 		position: relative;
 	}
-	a.erf {
-		color: #9C6C4A;
-		font-family: francois one;
-		text-transform: uppercase;
-		text-decoration: none;
-	}
 	p {
 		margin: 0 0 $spacefix*4 0;
 		a {
@@ -200,16 +194,19 @@ h2 {
 
 .hero {
 
-	#player {
-		float: right;
-		padding: 0 10px 0 0;
-	}
 	div.holder {
 		width: 90%;
 		margin: 0 auto;
 		// background: url('../../assets/img/bg2.jpg');
 		background-size: cover;
 		padding: 2.5%;
+		div.cover {
+			img {
+				width: 50%;
+				display: block;
+				margin: 0 auto;
+			}
+		}	
 
 	}
 	p.copy {
@@ -217,7 +214,7 @@ h2 {
 		// color: $white;
 		// font-family: francois one;
 		font-size: 1.85em;
-		text-align: left;
+		text-align: center;
 		// text-transform: uppercase;
 		.erf {
 			font-size: 1.25em;
@@ -225,6 +222,20 @@ h2 {
 			text-transform: uppercase;
 			line-height: .8em;
 			color: #9C6C4A;
+		}
+		.itunes {
+			font-family: lucida grande;
+			font-size: .6em;
+			font-weight: 800;
+			background: #9C6C4A;
+			color: $light;
+			padding: 10px 20px 8px;
+			display: inline-block;
+			margin: $spacefix 0;
+			i {
+				font-size: 1.5em;
+				vertical-align: middle;
+			}
 		}
 	}
 	.listen {
@@ -254,6 +265,15 @@ h2 {
 	}
 }
 .shows {
+	h2 {
+		margin: 20px 0;
+		a.erf {
+			color: #9C6C4A;
+			font-family: francois one;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+	}
 	ul {
 		li.frame {
 			margin: 0 0 $spacefix;
@@ -276,7 +296,7 @@ footer {
 
 
 @media only screen 
-and (max-width : 980px) {
+and (max-width : 1100px) {
 	* {
 		font-size: 105%;
 	}
@@ -303,12 +323,17 @@ and (max-width : 980px) {
 	}
 
 	.hero {
+		font-size: .7em;
 		img {
 			width: 100%;
 		}
 		#player {
+			float: none;
 			width: 300px;
-			margin: 0 auto;
+			margin: 0 auto 20px;
+		}
+		p.copy {
+			text-align: center;
 		}
 		.listen {
 			display: none;
