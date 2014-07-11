@@ -4,7 +4,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Joe Purdy</title>
+        <title>Joe Purdy - Popup</title>
         <link rel="stylesheet" href="<?php echo $FULLURL ?>build/css/global.css">
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
     </head>
